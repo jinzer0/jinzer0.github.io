@@ -1,7 +1,7 @@
-title: 김진영의 시행착오 기록 저장소
-author: jinzer0
-email: jinzero29@konkuk.ac.kr
-description: > 프로그래밍 공부를 하면서 겪은 문제 등을 기록하는 블로그입니다.
+title: '김진영의 시행착오 기록 저장소'
+author: 'jinzer0'
+email: 'jinzero29@konkuk.ac.kr'
+description: '프로그래밍 공부를 하면서 겪은 문제 등을 기록하는 블로그입니다.'
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -9,10 +9,10 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 plainwhite:
-  name: 김진영, Kim Jin-yeong
-  tagline: 컴퓨터공학부생
+  name: '김진영, Kim Jin-yeong'
+  tagline: '건국대학교 컴퓨터공학부'
   date_format: "%b %-d, %Y"
-  sitemap: false # set to true to generate sitemap.xml content
+  sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
   dark_mode: true # set to true to add dark mode toggle
   portfolio_image: "assets/main.jpg" # the path from the base directory of the site to the image to display (no / at the start)
@@ -23,9 +23,9 @@ plainwhite:
     - post
   # generate social links in footer
   social_links:
-    twitter: samarsault
-    github:  samarsault
-    linkedIn: in/samarsault
+    #twitter:
+    github:  jinzer0
+    #linkedIn: 
     #dribbble: jekyll
     #flickr:   jekyll
     #instagram: jekyll
@@ -35,7 +35,7 @@ plainwhite:
     #soundcloud: jekyll
     #telegram: jekyll
     #gitlab: jekyll
-    #email: jekyll
+    email: jinzero29@konkuk.ac.kr
 
     # Mastodon instances
     # mastodon:
