@@ -43,6 +43,9 @@ plainwhite:
     #   instance: example.com
     # - username: jekyll2
     #   instance: example.com
+  navigation:
+    - title: Algorithm
+      url: "/algorithm"
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
@@ -50,11 +53,11 @@ plainwhite:
 # - about.md
 
 # Build settings
-# theme: plainwhite
+theme: plainwhite
 
 plugins:
   - jekyll-seo-tag
-#  - jekyll-feed
+ - jekyll-feed
   - jekyll-remote-theme
 
 remote_theme: samarsault/plainwhite-jekyll
