@@ -134,7 +134,7 @@ a {
 
 pre, code {
   font-family: map-get($base, font-family-code);
-  color: rgba(#fff, .8);
+  color: rgba(rgb(166, 231, 140), 1);
 }
 
 code {
@@ -172,4 +172,19 @@ input {
 // mermaid
 .mermaidTooltip {
   display: none;
+}
+
+::-webkit-scrollbar{
+  width: 8px; // 세로 스크롤의 너비
+  height: 3px; // 가로 스크롤의 너비
+  background-color: #121212; // 스크롤의 기본 배경색상
+  
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 3px; // 스크롤바 곡률
+  background-color: #4dcb56; // 스크롤바 색상
+}
+
+::-webkit-scrollbar-track:horizontal{
+  background-color: #000000; // 가로 스크롤바 색상
 }
