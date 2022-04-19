@@ -23,7 +23,7 @@ $main-color-theme-dark:  rgba(#fff, .8);
 $background-color: #000000;
 
 // text colors
-$text-color-theme-light-d: #000;
+$text-color-theme-light-d: rgb(33, 4, 4);
 $text-color-theme-light:   #222;
 $text-color-theme-light-l: #888;
 
@@ -37,7 +37,7 @@ $text-color:       $text-color-theme-dark;
 $text-color-l:     $text-color-theme-dark-l;
 
 $text-background-color: rgba(#fff, .05);
-$text-background-color: #000;
+$text-background-color: #101010;
 
 // header and footer colors
 $header-text-color: $text-color-3;

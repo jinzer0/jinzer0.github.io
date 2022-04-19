@@ -134,10 +134,11 @@ a {
 
 pre, code {
   font-family: map-get($base, font-family-code);
+  color: rgba(#fff, .8);
 }
 
 code {
-  font-size: map-get($base, font-size-xs);
+  // font-size: map-get($base, font-size-xs);
   line-height: map-get($base, line-height-sm);
 }
 
